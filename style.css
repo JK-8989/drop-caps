@@ -20,8 +20,16 @@ p {
   /* border: 2px solid; */
   /* border-radius: 8px; */
   font-family: "Times New Roman", Times, serif;
+}
 
- 
+.item-2::first-letter {
+  font-size: 5rem;
+  float: left;
+  line-height: 0.9;
+  background: grey;
+  color: whitesmoke;
+  padding: 0 0.3rem;
+  margin: 0 0.3rem 0 0;
 }
 .item-3::first-letter {
   padding: 1em .8em 1.5em .8em;
